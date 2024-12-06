@@ -1,11 +1,14 @@
-import {useState} from 'react';
+import { useState, useEffect } from 'react';
+import Search from '../Search/Search';
 
 function App () {
   
   return (
     <div>
-      <h1>TO DO APP</h1>
-    </div>
+      <h1>Giphy App API Test</h1>
+      <Search />
+      
+      </div>
   );
 
 }
